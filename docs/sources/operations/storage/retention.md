@@ -16,7 +16,7 @@ If you have a lifecycle policy configured on the object store, please ensure tha
 Granular retention policies to apply retention at per tenant or per stream level are also supported by the Compactor.
 
 {{% admonition type="note" %}}
-The Compactor does not support retention on [legacy index types]({{< relref "../../storage#index-storage" >}}). Please use the [Table Manager]({{< relref "./table-manager" >}}) when using legacy index types.
+The Compactor does not support retention on [legacy index types](https://grafana.com/docs/loki/latest/configure/storage/#index-storage). Please use the [Table Manager]({{< relref "./table-manager" >}}) when using legacy index types.
 Both the Table manager and legacy index types are deprecated and may be removed in future major versions of Loki.
 {{% /admonition %}}
 
